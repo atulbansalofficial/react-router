@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class service extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Service Page</h1>
-      </div>
-    );
-  }
+function Service() {
+  return (
+    <div>
+      <h1>Service</h1>
+    </div>
+  );
 }
+
+export default Service;
